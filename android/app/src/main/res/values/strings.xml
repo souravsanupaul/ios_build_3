@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">exo_dem</string>
+    <string name="content_url"><![CDATA[https://storage.googleapis.com/gvabox/media/samples/stock.mp4]]></string>
+    <string name="ad_tag_url"><![CDATA[http://googleads.g.doubleclick.net/pageid/conversion/?ai=BYjRF3nOCTrCYG8_a-gbhkeDyAaKNvgYC6tiCpyDAjbcBsNsGEAIAQGyAQ93d3cueW91dHViZS5jb23IAQXaAShodHRwOi8vd3d3LnlvdXR1YmUuY29tL3ZpZGVvL3NFaHktU1hrTm8wuAIMyALS9s0eqAMBsAP]]></string>
+
+</resources>
+
+
+<!--    https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator=-->
