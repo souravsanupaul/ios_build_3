@@ -3,6 +3,7 @@ import Flutter
 import UIKit
 import CoreMedia
 // import GSPlayer
+import VideoPlayerView
 
 
 protocol fullScreeenDelegate: class {
