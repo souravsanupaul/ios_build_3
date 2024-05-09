@@ -5,7 +5,7 @@
 //
 
 import Foundation
-import GoogleInteractiveMediaAds
+// import GoogleInteractiveMediaAds
 import GSPlayer
 class NativeViewFactory : NSObject, FlutterPlatformViewFactory {
     private var messenger: FlutterBinaryMessenger
