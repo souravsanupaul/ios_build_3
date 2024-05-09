@@ -10,35 +10,35 @@ protocol fullScreeenDelegate: class {
     func normalScreenTap()
 }
 
-// @UIApplicationMain
-// @objc class AppDelegate: FlutterAppDelegate {
+@UIApplicationMain
+@objc class AppDelegate: FlutterAppDelegate {
     
-//     var myOrientation: UIInterfaceOrientationMask = .portrait
+    var myOrientation: UIInterfaceOrientationMask = .portrait
     
 
-//   override func application(
-//     _ application: UIApplication,
-//     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-//   ) -> Bool {
+  override func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
     
     
-//             GeneratedPluginRegistrant.register(with: self)
+            GeneratedPluginRegistrant.register(with: self)
 
-//       weak var registrar = self.registrar(forPlugin: "ima_sdk")
+      weak var registrar = self.registrar(forPlugin: "ima_sdk")
 
-//       let factory = NativeViewFactory(messenger: registrar!.messenger())
-//       registrar!.register(
-//           factory,
-//           withId: "NativeUI")
+      let factory = NativeViewFactory(messenger: registrar!.messenger())
+      registrar!.register(
+          factory,
+          withId: "NativeUI")
   
-// return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+return super.application(application, didFinishLaunchingWithOptions: launchOptions)
       
-//   }
-//     override func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-//             return myOrientation
-//         }
+  }
+    override func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+            return myOrientation
+        }
     
-// }
+}
 
 
 @IBDesignable
