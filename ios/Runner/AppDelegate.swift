@@ -2,7 +2,7 @@ import UIKit
 import Flutter
 import UIKit
 import CoreMedia
-import GSPlayer
+// import GSPlayer
 
 
 protocol fullScreeenDelegate: class {
