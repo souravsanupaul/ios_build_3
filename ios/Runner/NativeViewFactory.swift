@@ -157,7 +157,7 @@ public class NativeView : NSObject, FlutterPlatformView,fullScreeenDelegate, IMA
       }
         
         let controller = AVPlayerViewController()
-        internal var player = AVPlayer(url: URL(string: kTestAppContentUrl_MP4)!)
+        let player = AVPlayer(url: URL(string: kTestAppContentUrl_MP4)!)
 
         controller.player = player
         
